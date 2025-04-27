@@ -1,0 +1,27 @@
+.navigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+}
+
+.navigationItem {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #64dece
+}
+
+.navigationLink {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #04AA6D;
+}
