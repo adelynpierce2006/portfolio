@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     border-bottom: 1px dotted black;
 }
 
@@ -63,4 +63,19 @@ p {
     font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/*
+   Hide Extension Name in the identity area unless
+   hovered for half a second (updated for Fx80)
+*/
+#identity-box.extensionPage #identity-icon-labels,
+#identity-box.extensionPage #identity-icon-label {
+  visibility: collapse !important;
+  transition: visibility 250ms ease-in-out;
+}
+#identity-box.extensionPage:hover #identity-icon-labels,
+#identity-box.extensionPage:hover #identity-icon-label {
+  visibility: visible !important;
+  transition: visibility 250ms ease-in-out 500ms;
 }
