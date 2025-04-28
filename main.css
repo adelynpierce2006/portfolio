@@ -4,6 +4,7 @@
     padding: 0;
     overflow: hidden;
     background-color: azure;
+    border-bottom: 1px dotted black;
 }
 
 .navigationItem {
@@ -24,4 +25,42 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
+}
+
+.titlePageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.adelyn {
+    font-family: rig-solid-bold-reverse, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px;
+    margin-bottom: auto;
+}
+
+.verticalLine {
+    height: 400px;
+    width:0px;
+    border: 1.5px solid black;
+    margin: 3px;
+}
+
+.pierce {
+    font-family: rig-solid-bold-reverse, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px;
+    margin-top: auto;
+}
+
+p {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
