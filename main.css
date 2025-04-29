@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px dotted black;
+    background-color:  #f7f7f7;
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .navigationItem {
@@ -12,19 +13,23 @@
 }
 
 li a:hover:not(.active) {
-    background-color: #64dece
+    background-color: #d2d2d2;
 }
 
 .navigationLink {
     display: block;
     color: black;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #f7f7f7;
+    border: dotted black 1px;
 }
 
 .titlePageContainer {
@@ -33,6 +38,9 @@ li a:hover:not(.active) {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background: #f7f7f7;
+    background: radial-gradient(circle,rgba(247, 247, 247, 1) 0%, rgba(190, 190, 209, 1) 100%);
+    border-bottom: 1px solid black;
     
 }
 
@@ -57,6 +65,26 @@ li a:hover:not(.active) {
     font-style: normal;
     font-size: 150px;
     margin-top: auto;
+}
+
+.textDetail {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+h1 {
+    font-family: rig-solid-bold-reverse, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px;
 }
 
 p {
